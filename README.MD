@@ -1,7 +1,7 @@
 # RAN Online API
 
-##### RAN Online API is open source and going to be community driven, this is formerly for RAN Server Assistant,
-##### and will now be open sourced so you can make your own Mobile APPs to control your RAN Online Private Server,
+##### RAN Online API is open source and going to be community driven,
+##### and be open sourced so you can make your own Mobile APPs to control your RAN Online Private Server,
 ##### and soon maybe integrate REST Client in your RAN Online source code.
 
 ## Features
