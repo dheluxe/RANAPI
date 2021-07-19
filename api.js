@@ -5,6 +5,7 @@ const YXPH = require('./config/YeXiuPH')
 const main = require('./routes/Main')
 const char = require('./routes/Characters')
 const user = require('./routes/Users')
+const auth = require('./routes/Auth')
 
 YXPH.app
     .use(YXPH.express.json())
@@ -13,6 +14,7 @@ YXPH.app
     .use('/', main)
     .use('/', char)
     .use('/', user)
+    .use('/', auth)
     .get('/', (req, res) => {
         res.redirect('https://yxphstudios.tech')
     })
