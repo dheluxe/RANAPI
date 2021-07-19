@@ -36,8 +36,17 @@ node api
 
 ## Development
 
+```sh
+cd ranapi
+npm run dev
+```
+
 Want to contribute? Great!
 This is purely developed during my free time so feel free to contribute.
+
+> Just a quick rule please don't push in main or production that is meant for production and main releases only.
+Please use development branch for developments.
+and please create your own branch if necessary.
 
 ## License
 MIT(https://opensource.org/licenses/MIT)
