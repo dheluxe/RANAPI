@@ -1,0 +1,22 @@
+{
+  "name": "ranapi",
+  "version": "0.0.1",
+  "description": "RAN API for Various Projects",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./api.js"
+  },
+  "author": "YeXiuPH",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.0.10",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mssql": "^7.1.3",
+    "popups": "^1.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
