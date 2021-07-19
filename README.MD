@@ -1,8 +1,10 @@
 # RAN Online API
 
-##### RAN Online API is open source and going to be community driven,
+##### RAN Online API is open source and going to be community driven
+
 ##### so you can make your own Mobile APPs and more to control your RAN Online Private Server,
-##### and soon maybe integrate REST Client in your RAN Online source code.
+
+##### and soon maybe integrate REST Client in your RAN Online source code
 
 ## Features
 
@@ -10,17 +12,17 @@
 - Soon to be added ( Currently thinking what's vital and meh, I'm busy with work. )
 
 #### Goals
+
 The goal of this project
 > Have an integrated API in RAN Source using libcurl
  Have new APPs for RAN Online Private Servers especially in Mobile
  Have new innovative IDEAS for RAN Online Private Servers
  And have developers something to explore.
- 
+
 #### Vision
+
 >The future of RAN Online can be only holded by It's community and developers, this would help the development of new APPs easier,
 In the vision of YXPH Studios in the near future all private servers would be able to use APIs for their servers and will adapt new development methods.
-
-
 
 ## Installation
 
@@ -49,4 +51,5 @@ Please use the development branch for developments.
 and please create your own branch if necessary.
 
 ## License
-MIT(https://opensource.org/licenses/MIT)
+
+[MIT](https://opensource.org/licenses/MIT)
