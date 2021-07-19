@@ -1,12 +1,16 @@
-const express = require('express');
-const app = express();
-const router = express.Router();
-const bodyParser = require('body-parser');
-const port = 3000
+const express = require('express')
+const app = express()
+const router = express.Router()
+const bodyParser = require('body-parser')
+const env = require('dotenv')
+const ENVData = process.env
+
+const port = process.env.PORT
+
 
 /* MSSQL Database Connection */
-const sql = require('mssql');
-var dbconn = require('./dbconfig');
+const sql = require('mssql')
+var dbconn = require('./dbconfig')
 
 module.exports = {
     express,
@@ -16,4 +20,5 @@ module.exports = {
     router,
     sql,
     dbconn,
+    ENVData,
 };
