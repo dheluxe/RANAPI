@@ -11,10 +11,7 @@ YXPH.app
     .use(YXPH.express.json())
     .use(YXPH.bodyParser.json())
     .use(YXPH.bodyParser.urlencoded({ extended: true }))
-    .use('/', main)
-    .use('/', char)
-    .use('/', user)
-    .use('/', auth)
+    .use('/', user, auth, char, main)
     .get('/', (req, res) => {
         res.redirect('https://yxphstudios.tech')
     })
