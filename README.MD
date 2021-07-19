@@ -40,5 +40,4 @@ Want to contribute? Great!
 This is purely developed during my free time so feel free to contribute.
 
 ## License
-MIT
-
+MIT(https://opensource.org/licenses/MIT)
