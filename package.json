@@ -4,7 +4,7 @@
   "description": "RAN API for Various Projects",
   "main": "api.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node ./api.js",
     "dev": "nodemon ./api.js"
   },
   "author": "YeXiuPH",

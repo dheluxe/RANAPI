@@ -1,10 +1,9 @@
+const env = require('dotenv').config()
+const ENVData = process.env
 const express = require('express')
 const app = express()
 const router = express.Router()
 const bodyParser = require('body-parser')
-const env = require('dotenv')
-const ENVData = process.env
-require('dotenv').config()
 const PORT = ENVData.PORT
 
 /* MSSQL Database Connection */
@@ -20,4 +19,5 @@ module.exports = {
     PORT,
     dbconn,
     ENVData,
+    env,
 };
