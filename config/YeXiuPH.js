@@ -1,6 +1,5 @@
-const env = require('dotenv')
+const env = require('dotenv').config()
 const ENVData = process.env
-require('dotenv').config()
 const express = require('express')
 const app = express()
 const router = express.Router()
@@ -20,4 +19,5 @@ module.exports = {
     PORT,
     dbconn,
     ENVData,
+    env,
 };
