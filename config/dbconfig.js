@@ -1,6 +1,5 @@
 const YXPH = require('./YeXiuPH')
 
-
 exports.DB1Connect = function () {
     var DB1Data = {
         user: YXPH.ENVData.USER,
