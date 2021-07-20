@@ -4,9 +4,8 @@ const router = express.Router()
 const bodyParser = require('body-parser')
 const env = require('dotenv')
 const ENVData = process.env
-
-const port = process.env.PORT
-
+require('dotenv').config()
+const PORT = ENVData.PORT
 
 /* MSSQL Database Connection */
 const sql = require('mssql')
@@ -16,9 +15,9 @@ module.exports = {
     express,
     app,
     bodyParser,
-    port,
     router,
     sql,
+    PORT,
     dbconn,
     ENVData,
 };
